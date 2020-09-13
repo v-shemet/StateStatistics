@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E777B41824CB307B00114E05"
-               BuildableName = "Domain.framework"
-               BlueprintName = "Domain"
-               ReferencedContainer = "container:../Domain/Domain.xcodeproj">
+               BuildableName = "DomainKit.framework"
+               BlueprintName = "DomainKit"
+               ReferencedContainer = "container:../Domain/DomainKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E777B3F424CB306A00114E05"
-               BuildableName = "Data.framework"
-               BlueprintName = "Data"
-               ReferencedContainer = "container:../Data/Data.xcodeproj">
+               BuildableName = "DataKit.framework"
+               BlueprintName = "DataKit"
+               ReferencedContainer = "container:../Data/DataKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

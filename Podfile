@@ -21,8 +21,8 @@ end
 ########
 ### Domain Module
 ########
-target 'Domain' do
-  project 'Domain/Domain.xcodeproj'
+target 'DomainKit' do
+  project 'Domain/DomainKit.xcodeproj'
 
   shared
   
@@ -31,8 +31,8 @@ end
 ########
 ### Data Module
 ########
-target 'Data' do
-  project 'Data/Data.xcodeproj'
+target 'DataKit' do
+  project 'Data/DataKit.xcodeproj'
   
   shared
   

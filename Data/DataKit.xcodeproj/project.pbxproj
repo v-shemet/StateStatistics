@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2F13CF0EA7F9BEDB9668CED /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE22DD4473421DBEE8246917 /* Pods_Data.framework */; };
-		E703FCD9250E8D060024B9AE /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCD8250E8D060024B9AE /* Domain.framework */; };
-		E703FCDA250E8D060024B9AE /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCD8250E8D060024B9AE /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E777B3FF24CB306A00114E05 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B3F524CB306A00114E05 /* Data.framework */; };
+		A957E7F3D3E5B41C8055C04A /* Pods_DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */; };
+		E703FCE5250E90320024B9AE /* DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; };
+		E703FCE6250E90320024B9AE /* DomainKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E777B3FF24CB306A00114E05 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B3F524CB306A00114E05 /* DataKit.framework */; };
 		E777B40424CB306A00114E05 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B40324CB306A00114E05 /* DataTests.swift */; };
 		E777B40624CB306A00114E05 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B3F824CB306A00114E05 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE811F250E237E00E5A187 /* NetworkService.swift */; };
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E703FCDB250E8D060024B9AE /* Embed Frameworks */ = {
+		E703FCE7250E90320024B9AE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E703FCDA250E8D060024B9AE /* Domain.framework in Embed Frameworks */,
+				E703FCE6250E90320024B9AE /* DomainKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,14 +51,17 @@
 
 /* Begin PBXFileReference section */
 		0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
+		70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataKit.release.xcconfig"; path = "Target Support Files/Pods-DataKit/Pods-DataKit.release.xcconfig"; sourceTree = "<group>"; };
 		7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
-		BE22DD4473421DBEE8246917 /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataKit.debug.xcconfig"; path = "Target Support Files/Pods-DataKit/Pods-DataKit.debug.xcconfig"; sourceTree = "<group>"; };
 		E703FCD0250E84F00024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCD8250E8D060024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E777B3F524CB306A00114E05 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E703FCE4250E90320024B9AE /* DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777B3F524CB306A00114E05 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B3F824CB306A00114E05 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		E777B3F924CB306A00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E777B3FE24CB306A00114E05 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777B3FE24CB306A00114E05 /* DataKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B40324CB306A00114E05 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
 		E777B40524CB306A00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7AE811F250E237E00E5A187 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -78,8 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E703FCD9250E8D060024B9AE /* Domain.framework in Frameworks */,
-				E2F13CF0EA7F9BEDB9668CED /* Pods_Data.framework in Frameworks */,
+				E703FCE5250E90320024B9AE /* DomainKit.framework in Frameworks */,
+				A957E7F3D3E5B41C8055C04A /* Pods_DataKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E777B3FF24CB306A00114E05 /* Data.framework in Frameworks */,
+				E777B3FF24CB306A00114E05 /* DataKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +102,8 @@
 			children = (
 				0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */,
 				7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */,
+				BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */,
+				70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -107,9 +112,10 @@
 		D6CD1EBD29CD9E6B4E4964CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E703FCE4250E90320024B9AE /* DomainKit.framework */,
 				E703FCD8250E8D060024B9AE /* Domain.framework */,
 				E703FCD0250E84F00024B9AE /* Domain.framework */,
-				BE22DD4473421DBEE8246917 /* Pods_Data.framework */,
+				8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,8 +134,8 @@
 		E777B3F624CB306A00114E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E777B3F524CB306A00114E05 /* Data.framework */,
-				E777B3FE24CB306A00114E05 /* DataTests.xctest */,
+				E777B3F524CB306A00114E05 /* DataKit.framework */,
+				E777B3FE24CB306A00114E05 /* DataKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,29 +238,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E777B3F424CB306A00114E05 /* Data */ = {
+		E777B3F424CB306A00114E05 /* DataKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E777B40924CB306A00114E05 /* Build configuration list for PBXNativeTarget "Data" */;
+			buildConfigurationList = E777B40924CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataKit" */;
 			buildPhases = (
 				0DBAC80C4415AEC966A8D0B4 /* [CP] Check Pods Manifest.lock */,
 				E777B3F024CB306A00114E05 /* Headers */,
 				E777B3F124CB306A00114E05 /* Sources */,
 				E777B3F224CB306A00114E05 /* Frameworks */,
 				E777B3F324CB306A00114E05 /* Resources */,
-				E703FCDB250E8D060024B9AE /* Embed Frameworks */,
+				E703FCE7250E90320024B9AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Data;
+			name = DataKit;
 			productName = Data;
-			productReference = E777B3F524CB306A00114E05 /* Data.framework */;
+			productReference = E777B3F524CB306A00114E05 /* DataKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E777B3FD24CB306A00114E05 /* DataTests */ = {
+		E777B3FD24CB306A00114E05 /* DataKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E777B40C24CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataTests" */;
+			buildConfigurationList = E777B40C24CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataKitTests" */;
 			buildPhases = (
 				E777B3FA24CB306A00114E05 /* Sources */,
 				E777B3FB24CB306A00114E05 /* Frameworks */,
@@ -265,9 +271,9 @@
 			dependencies = (
 				E777B40124CB306A00114E05 /* PBXTargetDependency */,
 			);
-			name = DataTests;
+			name = DataKitTests;
 			productName = DataTests;
-			productReference = E777B3FE24CB306A00114E05 /* DataTests.xctest */;
+			productReference = E777B3FE24CB306A00114E05 /* DataKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -289,7 +295,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E777B3EF24CB306A00114E05 /* Build configuration list for PBXProject "Data" */;
+			buildConfigurationList = E777B3EF24CB306A00114E05 /* Build configuration list for PBXProject "DataKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -302,8 +308,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E777B3F424CB306A00114E05 /* Data */,
-				E777B3FD24CB306A00114E05 /* DataTests */,
+				E777B3F424CB306A00114E05 /* DataKit */,
+				E777B3FD24CB306A00114E05 /* DataKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +347,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Data-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DataKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -381,7 +387,7 @@
 /* Begin PBXTargetDependency section */
 		E777B40124CB306A00114E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E777B3F424CB306A00114E05 /* Data */;
+			target = E777B3F424CB306A00114E05 /* DataKit */;
 			targetProxy = E777B40024CB306A00114E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -509,7 +515,7 @@
 		};
 		E777B40A24CB306A00114E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */;
+			baseConfigurationReference = BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,7 +543,7 @@
 		};
 		E777B40B24CB306A00114E05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */;
+			baseConfigurationReference = 70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -603,7 +609,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E777B3EF24CB306A00114E05 /* Build configuration list for PBXProject "Data" */ = {
+		E777B3EF24CB306A00114E05 /* Build configuration list for PBXProject "DataKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B40724CB306A00114E05 /* Debug */,
@@ -612,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E777B40924CB306A00114E05 /* Build configuration list for PBXNativeTarget "Data" */ = {
+		E777B40924CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B40A24CB306A00114E05 /* Debug */,
@@ -621,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E777B40C24CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataTests" */ = {
+		E777B40C24CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B40D24CB306A00114E05 /* Debug */,

@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E777B41824CB307B00114E05"
-               BuildableName = "Domain.framework"
-               BlueprintName = "Domain"
-               ReferencedContainer = "container:../Domain/Domain.xcodeproj">
+               BuildableName = "DomainKit.framework"
+               BlueprintName = "DomainKit"
+               ReferencedContainer = "container:../Domain/DomainKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
