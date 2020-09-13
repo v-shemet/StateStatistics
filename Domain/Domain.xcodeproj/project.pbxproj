@@ -11,6 +11,8 @@
 		E777B42324CB307B00114E05 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B41924CB307B00114E05 /* Domain.framework */; };
 		E777B42824CB307B00114E05 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B42724CB307B00114E05 /* DomainTests.swift */; };
 		E777B42A24CB307B00114E05 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B41C24CB307B00114E05 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AE8127250E265200E5A187 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AE8126250E265200E5A187 /* Data.framework */; };
+		E7AE8128250E265200E5A187 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7AE8126250E265200E5A187 /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +25,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E7AE8129250E265200E5A187 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7AE8128250E265200E5A187 /* Data.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1612F97B3A777BA900772E42 /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
 		780A7FBABA6881A3B49A9C7F /* Pods_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +49,7 @@
 		E777B42224CB307B00114E05 /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B42724CB307B00114E05 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
 		E777B42924CB307B00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AE8126250E265200E5A187 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AE8127250E265200E5A187 /* Data.framework in Frameworks */,
 				203301E085D188DCBA274B3A /* Pods_Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +86,7 @@
 		C14DCB9D747F7D8E003045DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7AE8126250E265200E5A187 /* Data.framework */,
 				780A7FBABA6881A3B49A9C7F /* Pods_Domain.framework */,
 			);
 			name = Frameworks;
@@ -134,6 +153,7 @@
 				E777B41524CB307B00114E05 /* Sources */,
 				E777B41624CB307B00114E05 /* Frameworks */,
 				E777B41724CB307B00114E05 /* Resources */,
+				E7AE8129250E265200E5A187 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
