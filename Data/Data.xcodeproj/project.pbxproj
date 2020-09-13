@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E2F13CF0EA7F9BEDB9668CED /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE22DD4473421DBEE8246917 /* Pods_Data.framework */; };
+		E703FCD9250E8D060024B9AE /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCD8250E8D060024B9AE /* Domain.framework */; };
+		E703FCDA250E8D060024B9AE /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCD8250E8D060024B9AE /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E777B3FF24CB306A00114E05 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B3F524CB306A00114E05 /* Data.framework */; };
 		E777B40424CB306A00114E05 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B40324CB306A00114E05 /* DataTests.swift */; };
 		E777B40624CB306A00114E05 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B3F824CB306A00114E05 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,10 +35,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E703FCDB250E8D060024B9AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E703FCDA250E8D060024B9AE /* Domain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
 		7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
 		BE22DD4473421DBEE8246917 /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E703FCD0250E84F00024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E703FCD8250E8D060024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B3F524CB306A00114E05 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B3F824CB306A00114E05 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		E777B3F924CB306A00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E703FCD9250E8D060024B9AE /* Domain.framework in Frameworks */,
 				E2F13CF0EA7F9BEDB9668CED /* Pods_Data.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +107,8 @@
 		D6CD1EBD29CD9E6B4E4964CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E703FCD8250E8D060024B9AE /* Domain.framework */,
+				E703FCD0250E84F00024B9AE /* Domain.framework */,
 				BE22DD4473421DBEE8246917 /* Pods_Data.framework */,
 			);
 			name = Frameworks;
@@ -220,6 +241,7 @@
 				E777B3F124CB306A00114E05 /* Sources */,
 				E777B3F224CB306A00114E05 /* Frameworks */,
 				E777B3F324CB306A00114E05 /* Resources */,
+				E703FCDB250E8D060024B9AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -502,6 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.Data";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -529,6 +552,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.Data";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
