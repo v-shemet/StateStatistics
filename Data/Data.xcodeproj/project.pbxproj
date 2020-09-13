@@ -11,6 +11,16 @@
 		E777B3FF24CB306A00114E05 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B3F524CB306A00114E05 /* Data.framework */; };
 		E777B40424CB306A00114E05 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B40324CB306A00114E05 /* DataTests.swift */; };
 		E777B40624CB306A00114E05 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B3F824CB306A00114E05 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE811F250E237E00E5A187 /* NetworkService.swift */; };
+		E7AE8123250E24B300E5A187 /* NetworkTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8122250E24B300E5A187 /* NetworkTargetType.swift */; };
+		E7AE8125250E252500E5A187 /* NetworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8124250E252500E5A187 /* NetworkServiceImpl.swift */; };
+		E7AE8131250E285600E5A187 /* NetworkProviderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8130250E285600E5A187 /* NetworkProviderBuilder.swift */; };
+		E7AE8133250E28A000E5A187 /* NetworkProviderBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8132250E28A000E5A187 /* NetworkProviderBuilderImpl.swift */; };
+		E7AE8135250E29B000E5A187 /* NetworkTargetStubSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8134250E29B000E5A187 /* NetworkTargetStubSupportable.swift */; };
+		E7AE8138250E2BD800E5A187 /* NSLock+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8137250E2BD800E5A187 /* NSLock+.swift */; };
+		E7AE813A250E2D7D00E5A187 /* JSONDecoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8139250E2D7D00E5A187 /* JSONDecoder+.swift */; };
+		E7AE813D250E30E300E5A187 /* NetworkingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE813C250E30E300E5A187 /* NetworkingAssembly.swift */; };
+		E7AE813F250E32E600E5A187 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE813E250E32E600E5A187 /* DataAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,16 @@
 		E777B3FE24CB306A00114E05 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B40324CB306A00114E05 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
 		E777B40524CB306A00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AE811F250E237E00E5A187 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E7AE8122250E24B300E5A187 /* NetworkTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTargetType.swift; sourceTree = "<group>"; };
+		E7AE8124250E252500E5A187 /* NetworkServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceImpl.swift; sourceTree = "<group>"; };
+		E7AE8130250E285600E5A187 /* NetworkProviderBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderBuilder.swift; sourceTree = "<group>"; };
+		E7AE8132250E28A000E5A187 /* NetworkProviderBuilderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderBuilderImpl.swift; sourceTree = "<group>"; };
+		E7AE8134250E29B000E5A187 /* NetworkTargetStubSupportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTargetStubSupportable.swift; sourceTree = "<group>"; };
+		E7AE8137250E2BD800E5A187 /* NSLock+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLock+.swift"; sourceTree = "<group>"; };
+		E7AE8139250E2D7D00E5A187 /* JSONDecoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+.swift"; sourceTree = "<group>"; };
+		E7AE813C250E30E300E5A187 /* NetworkingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAssembly.swift; sourceTree = "<group>"; };
+		E7AE813E250E32E600E5A187 /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +143,58 @@
 		E7AE811E250E236900E5A187 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E7AE8136250E2BC900E5A187 /* Extension */,
+				E7AE8121250E238E00E5A187 /* Networking */,
+				E7AE813E250E32E600E5A187 /* DataAssembly.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		E7AE8121250E238E00E5A187 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE812F250E283400E5A187 /* NetworkProviderBuilder */,
+				E7AE813B250E30C200E5A187 /* NetworkService */,
+				E7AE812E250E282500E5A187 /* NetworkTargetType */,
+				E7AE813C250E30E300E5A187 /* NetworkingAssembly.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E7AE812E250E282500E5A187 /* NetworkTargetType */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE8134250E29B000E5A187 /* NetworkTargetStubSupportable.swift */,
+				E7AE8122250E24B300E5A187 /* NetworkTargetType.swift */,
+			);
+			path = NetworkTargetType;
+			sourceTree = "<group>";
+		};
+		E7AE812F250E283400E5A187 /* NetworkProviderBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE8130250E285600E5A187 /* NetworkProviderBuilder.swift */,
+				E7AE8132250E28A000E5A187 /* NetworkProviderBuilderImpl.swift */,
+			);
+			path = NetworkProviderBuilder;
+			sourceTree = "<group>";
+		};
+		E7AE8136250E2BC900E5A187 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE8139250E2D7D00E5A187 /* JSONDecoder+.swift */,
+				E7AE8137250E2BD800E5A187 /* NSLock+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E7AE813B250E30C200E5A187 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE811F250E237E00E5A187 /* NetworkService.swift */,
+				E7AE8124250E252500E5A187 /* NetworkServiceImpl.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AE813A250E2D7D00E5A187 /* JSONDecoder+.swift in Sources */,
+				E7AE8133250E28A000E5A187 /* NetworkProviderBuilderImpl.swift in Sources */,
+				E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */,
+				E7AE8125250E252500E5A187 /* NetworkServiceImpl.swift in Sources */,
+				E7AE813D250E30E300E5A187 /* NetworkingAssembly.swift in Sources */,
+				E7AE8138250E2BD800E5A187 /* NSLock+.swift in Sources */,
+				E7AE8135250E29B000E5A187 /* NetworkTargetStubSupportable.swift in Sources */,
+				E7AE8123250E24B300E5A187 /* NetworkTargetType.swift in Sources */,
+				E7AE8131250E285600E5A187 /* NetworkProviderBuilder.swift in Sources */,
+				E7AE813F250E32E600E5A187 /* DataAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
