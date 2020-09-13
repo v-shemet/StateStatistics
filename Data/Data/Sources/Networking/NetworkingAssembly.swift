@@ -6,6 +6,7 @@
 //  Copyright © 2020 Vladimir Shemet. All rights reserved.
 //
 
+import Moya
 import Swinject
 
 private enum NetworkingConfig {
@@ -15,6 +16,7 @@ private enum NetworkingConfig {
 final class NetworkingAssembly: Assembly {
   func assemble(container: Container) {
     registerNetworkProviderBuilder(in: container)
+    registerLogger(in: container)
     registerNetworkService(in: container)
   }
 }
@@ -34,8 +36,28 @@ private extension NetworkingAssembly {
     container.register(NetworkProviderBuilder.self) { resolver in
       NetworkProviderBuilderImpl(
         baseUrl: NetworkingConfig.baseUrl,
-        plugins: []
+        plugins: [
+          resolver.resolve(NetworkLoggerPlugin.self)!
+        ]
       )
+    }
+  }
+  
+  func registerLogger(in container: Container) {
+    container.register(NetworkLoggerPlugin.self) { _ in
+      #if DEBUG
+      let dataFormatter = NetworkJSONResponseFormatter()
+      let formatter = NetworkLoggerPlugin.Configuration.Formatter(responseData: dataFormatter.format)
+      let configuration = NetworkLoggerPlugin.Configuration(
+        formatter: formatter,
+        output: NetworkLoggerPlugin.Configuration.defaultOutput,
+        logOptions: .verbose
+      )
+      
+      return NetworkLoggerPlugin(configuration: configuration)
+      #else
+      return NetworkLoggerPlugin()
+      #endif
     }
   }
 }

@@ -13,6 +13,7 @@
 		E777B3FF24CB306A00114E05 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B3F524CB306A00114E05 /* DataKit.framework */; };
 		E777B40424CB306A00114E05 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B40324CB306A00114E05 /* DataTests.swift */; };
 		E777B40624CB306A00114E05 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B3F824CB306A00114E05 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7851732250E99BE00F228EB /* NetworkJSONResponseFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7851731250E99BE00F228EB /* NetworkJSONResponseFormatter.swift */; };
 		E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE811F250E237E00E5A187 /* NetworkService.swift */; };
 		E7AE8123250E24B300E5A187 /* NetworkTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8122250E24B300E5A187 /* NetworkTargetType.swift */; };
 		E7AE8125250E252500E5A187 /* NetworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE8124250E252500E5A187 /* NetworkServiceImpl.swift */; };
@@ -64,6 +65,7 @@
 		E777B3FE24CB306A00114E05 /* DataKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B40324CB306A00114E05 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
 		E777B40524CB306A00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7851731250E99BE00F228EB /* NetworkJSONResponseFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkJSONResponseFormatter.swift; sourceTree = "<group>"; };
 		E7AE811F250E237E00E5A187 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E7AE8122250E24B300E5A187 /* NetworkTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTargetType.swift; sourceTree = "<group>"; };
 		E7AE8124250E252500E5A187 /* NetworkServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceImpl.swift; sourceTree = "<group>"; };
@@ -158,6 +160,14 @@
 			path = DataTests;
 			sourceTree = "<group>";
 		};
+		E7851730250E99A300F228EB /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E7851731250E99BE00F228EB /* NetworkJSONResponseFormatter.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		E7AE811D250E235A00E5A187 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +193,7 @@
 				E7AE812F250E283400E5A187 /* NetworkProviderBuilder */,
 				E7AE813B250E30C200E5A187 /* NetworkService */,
 				E7AE812E250E282500E5A187 /* NetworkTargetType */,
+				E7851730250E99A300F228EB /* Plugins */,
 				E7AE813C250E30E300E5A187 /* NetworkingAssembly.swift */,
 			);
 			path = Networking;
@@ -366,6 +377,7 @@
 				E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */,
 				E7AE8125250E252500E5A187 /* NetworkServiceImpl.swift in Sources */,
 				E7AE813D250E30E300E5A187 /* NetworkingAssembly.swift in Sources */,
+				E7851732250E99BE00F228EB /* NetworkJSONResponseFormatter.swift in Sources */,
 				E7AE8138250E2BD800E5A187 /* NSLock+.swift in Sources */,
 				E7AE8135250E29B000E5A187 /* NetworkTargetStubSupportable.swift in Sources */,
 				E7AE8123250E24B300E5A187 /* NetworkTargetType.swift in Sources */,
