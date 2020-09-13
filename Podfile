@@ -1,26 +1,41 @@
 platform :ios, '13.0'
 workspace 'StateStatistics.xcworkspace'
 
+use_frameworks!
+inhibit_all_warnings!
+
+def shared
+  pod 'Swinject'
+end
+
+########
+### App
+########
 target 'StateStatisticsApp' do
   project 'StateStatisticsApp/StateStatisticsApp.xcodeproj'
+
+  shared
   
-  use_frameworks!
-  inhibit_all_warnings!
-
 end
 
-target 'Domain' do
-  project 'Domain/Domain.xcodeproj'
+########
+### Domain Module
+########
+target 'DomainKit' do
+  project 'Domain/DomainKit.xcodeproj'
 
-  use_frameworks!
-  inhibit_all_warnings!
-
+  shared
+  
 end
 
-target 'Data' do
-  project 'Data/Data.xcodeproj'
-
-  use_frameworks!
-  inhibit_all_warnings!
-
+########
+### Data Module
+########
+target 'DataKit' do
+  project 'Data/DataKit.xcodeproj'
+  
+  shared
+  
+  pod 'Moya/RxSwift', '~> 14.0'
+  
 end

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		203301E085D188DCBA274B3A /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A7FBABA6881A3B49A9C7F /* Pods_Domain.framework */; };
-		E777B42324CB307B00114E05 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B41924CB307B00114E05 /* Domain.framework */; };
+		201D679B7D98D19996E2B88C /* Pods_DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E8CAB3503374BC52D63EE /* Pods_DomainKit.framework */; };
+		E777B42324CB307B00114E05 /* DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E777B41924CB307B00114E05 /* DomainKit.framework */; };
 		E777B42824CB307B00114E05 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B42724CB307B00114E05 /* DomainTests.swift */; };
 		E777B42A24CB307B00114E05 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = E777B41C24CB307B00114E05 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -25,14 +25,17 @@
 
 /* Begin PBXFileReference section */
 		1612F97B3A777BA900772E42 /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
-		780A7FBABA6881A3B49A9C7F /* Pods_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA5B663E984EDF86550BBB6 /* Pods-DomainKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainKit.release.xcconfig"; path = "Target Support Files/Pods-DomainKit/Pods-DomainKit.release.xcconfig"; sourceTree = "<group>"; };
+		AB5E8CAB3503374BC52D63EE /* Pods_DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C44789F7AB21C1BD87B669 /* Pods-Domain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.release.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.release.xcconfig"; sourceTree = "<group>"; };
-		E777B41924CB307B00114E05 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777B41924CB307B00114E05 /* DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B41C24CB307B00114E05 /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		E777B41D24CB307B00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E777B42224CB307B00114E05 /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777B42224CB307B00114E05 /* DomainKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B42724CB307B00114E05 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
 		E777B42924CB307B00114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AE8126250E265200E5A187 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FF37C7C3808D66CF78CF85 /* Pods-DomainKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainKit.debug.xcconfig"; path = "Target Support Files/Pods-DomainKit/Pods-DomainKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203301E085D188DCBA274B3A /* Pods_Domain.framework in Frameworks */,
+				201D679B7D98D19996E2B88C /* Pods_DomainKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E777B42324CB307B00114E05 /* Domain.framework in Frameworks */,
+				E777B42324CB307B00114E05 /* DomainKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,8 @@
 			children = (
 				1612F97B3A777BA900772E42 /* Pods-Domain.debug.xcconfig */,
 				B5C44789F7AB21C1BD87B669 /* Pods-Domain.release.xcconfig */,
+				F1FF37C7C3808D66CF78CF85 /* Pods-DomainKit.debug.xcconfig */,
+				1BA5B663E984EDF86550BBB6 /* Pods-DomainKit.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -68,7 +73,8 @@
 		C14DCB9D747F7D8E003045DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				780A7FBABA6881A3B49A9C7F /* Pods_Domain.framework */,
+				E7AE8126250E265200E5A187 /* Data.framework */,
+				AB5E8CAB3503374BC52D63EE /* Pods_DomainKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,8 +93,8 @@
 		E777B41A24CB307B00114E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E777B41924CB307B00114E05 /* Domain.framework */,
-				E777B42224CB307B00114E05 /* DomainTests.xctest */,
+				E777B41924CB307B00114E05 /* DomainKit.framework */,
+				E777B42224CB307B00114E05 /* DomainKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +131,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E777B41824CB307B00114E05 /* Domain */ = {
+		E777B41824CB307B00114E05 /* DomainKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E777B42D24CB307B00114E05 /* Build configuration list for PBXNativeTarget "Domain" */;
+			buildConfigurationList = E777B42D24CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainKit" */;
 			buildPhases = (
 				519B8320DB714B02225E26DA /* [CP] Check Pods Manifest.lock */,
 				E777B41424CB307B00114E05 /* Headers */,
@@ -139,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = Domain;
+			name = DomainKit;
 			productName = Domain;
-			productReference = E777B41924CB307B00114E05 /* Domain.framework */;
+			productReference = E777B41924CB307B00114E05 /* DomainKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E777B42124CB307B00114E05 /* DomainTests */ = {
+		E777B42124CB307B00114E05 /* DomainKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E777B43024CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainTests" */;
+			buildConfigurationList = E777B43024CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainKitTests" */;
 			buildPhases = (
 				E777B41E24CB307B00114E05 /* Sources */,
 				E777B41F24CB307B00114E05 /* Frameworks */,
@@ -157,9 +163,9 @@
 			dependencies = (
 				E777B42524CB307B00114E05 /* PBXTargetDependency */,
 			);
-			name = DomainTests;
+			name = DomainKitTests;
 			productName = DomainTests;
-			productReference = E777B42224CB307B00114E05 /* DomainTests.xctest */;
+			productReference = E777B42224CB307B00114E05 /* DomainKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E777B41324CB307B00114E05 /* Build configuration list for PBXProject "Domain" */;
+			buildConfigurationList = E777B41324CB307B00114E05 /* Build configuration list for PBXProject "DomainKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -193,8 +199,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E777B41824CB307B00114E05 /* Domain */,
-				E777B42124CB307B00114E05 /* DomainTests */,
+				E777B41824CB307B00114E05 /* DomainKit */,
+				E777B42124CB307B00114E05 /* DomainKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +238,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Domain-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DomainKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -262,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		E777B42524CB307B00114E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E777B41824CB307B00114E05 /* Domain */;
+			target = E777B41824CB307B00114E05 /* DomainKit */;
 			targetProxy = E777B42424CB307B00114E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,7 +396,7 @@
 		};
 		E777B42E24CB307B00114E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1612F97B3A777BA900772E42 /* Pods-Domain.debug.xcconfig */;
+			baseConfigurationReference = F1FF37C7C3808D66CF78CF85 /* Pods-DomainKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -404,6 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.Domain";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -415,7 +422,7 @@
 		};
 		E777B42F24CB307B00114E05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5C44789F7AB21C1BD87B669 /* Pods-Domain.release.xcconfig */;
+			baseConfigurationReference = 1BA5B663E984EDF86550BBB6 /* Pods-DomainKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -429,6 +436,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.Domain";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -477,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E777B41324CB307B00114E05 /* Build configuration list for PBXProject "Domain" */ = {
+		E777B41324CB307B00114E05 /* Build configuration list for PBXProject "DomainKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B42B24CB307B00114E05 /* Debug */,
@@ -486,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E777B42D24CB307B00114E05 /* Build configuration list for PBXNativeTarget "Domain" */ = {
+		E777B42D24CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B42E24CB307B00114E05 /* Debug */,
@@ -495,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E777B43024CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainTests" */ = {
+		E777B43024CB307B00114E05 /* Build configuration list for PBXNativeTarget "DomainKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E777B43124CB307B00114E05 /* Debug */,
