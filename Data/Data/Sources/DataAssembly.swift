@@ -10,8 +10,11 @@ import Swinject
 
 public final class DataAssembly: Assembly {
   private let assemblies: [Assembly] = [
+    ExchangeRatesAssembly(),
     NetworkingAssembly()
   ]
+  
+  public init() { }
   
   public func assemble(container: Container) {
     assemblies

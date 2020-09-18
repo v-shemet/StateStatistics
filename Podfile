@@ -6,6 +6,7 @@ inhibit_all_warnings!
 
 def shared
   pod 'Swinject'
+  pod 'RxSwift', '~> 5.1.1'
 end
 
 ########

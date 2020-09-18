@@ -10,7 +10,7 @@ import Moya
 import Swinject
 
 private enum NetworkingConfig {
-  static let baseUrl: URL = URL(string: "https://some-test-placeholder.net")!
+  static let baseUrl: URL = URL(string: "https://bank.gov.ua")!
 }
 
 final class NetworkingAssembly: Assembly {
