@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1170"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E777B3A124CB2D8C00114E05"
-               BuildableName = "StateStatisticsApp.app"
-               BlueprintName = "StateStatisticsApp"
-               ReferencedContainer = "container:StateStatisticsApp.xcodeproj">
+               BlueprintIdentifier = "E777B3F424CB306A00114E05"
+               BuildableName = "DataKit.framework"
+               BlueprintName = "DataKit"
+               ReferencedContainer = "container:../Data/DataKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -42,10 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E777B3F424CB306A00114E05"
-               BuildableName = "DataKit.framework"
-               BlueprintName = "DataKit"
-               ReferencedContainer = "container:../Data/DataKit.xcodeproj">
+               BlueprintIdentifier = "E777B3A124CB2D8C00114E05"
+               BuildableName = "StateStatisticsApp.app"
+               BlueprintName = "StateStatisticsApp"
+               ReferencedContainer = "container:StateStatisticsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

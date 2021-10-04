@@ -6,6 +6,7 @@
 //  Copyright © 2020 Vladimir Shemet. All rights reserved.
 //
 
+import Foundation
 import Moya
 
 final class NetworkProviderBuilderImpl: NetworkProviderBuilder {

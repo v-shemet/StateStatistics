@@ -6,7 +6,9 @@
 //  Copyright © 2020 Vladimir Shemet. All rights reserved.
 //
 
+import Foundation
 import Moya
+import RxMoya
 import RxSwift
 
 final class NetworkServiceImpl {

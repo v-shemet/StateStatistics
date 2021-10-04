@@ -7,6 +7,7 @@
 //
 
 import DomainKit
+import Foundation
 import Swinject
 
 final class ExchangeRatesAssembly: Assembly {

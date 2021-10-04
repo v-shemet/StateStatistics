@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A957E7F3D3E5B41C8055C04A /* Pods_DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */; };
+		451B5200270B948D00E2CEE8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 451B51FF270B948D00E2CEE8 /* Swinject */; };
+		451B5203270B94EF00E2CEE8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5202270B94EF00E2CEE8 /* RxCocoa */; };
+		451B5205270B94EF00E2CEE8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5204270B94EF00E2CEE8 /* RxSwift */; };
+		451B5208270B957000E2CEE8 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5207270B957000E2CEE8 /* RxMoya */; };
 		E703FCE5250E90320024B9AE /* DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; };
 		E703FCE6250E90320024B9AE /* DomainKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E711920C2515120C00FD48B2 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711920B2515120C00FD48B2 /* DataError.swift */; };
@@ -65,11 +68,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
-		70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataKit.release.xcconfig"; path = "Target Support Files/Pods-DataKit/Pods-DataKit.release.xcconfig"; sourceTree = "<group>"; };
-		7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
-		8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataKit.debug.xcconfig"; path = "Target Support Files/Pods-DataKit/Pods-DataKit.debug.xcconfig"; sourceTree = "<group>"; };
 		E703FCD0250E84F00024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCD8250E8D060024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCE4250E90320024B9AE /* DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,8 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451B5208270B957000E2CEE8 /* RxMoya in Frameworks */,
+				451B5203270B94EF00E2CEE8 /* RxCocoa in Frameworks */,
 				E703FCE5250E90320024B9AE /* DomainKit.framework in Frameworks */,
-				A957E7F3D3E5B41C8055C04A /* Pods_DataKit.framework in Frameworks */,
+				451B5205270B94EF00E2CEE8 /* RxSwift in Frameworks */,
+				451B5200270B948D00E2CEE8 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,25 +128,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		234EFDF715FAB82EC3650066 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0B648C8A176DA77E02439525 /* Pods-Data.debug.xcconfig */,
-				7244FE360D59003BDD453AFA /* Pods-Data.release.xcconfig */,
-				BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */,
-				70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 		D6CD1EBD29CD9E6B4E4964CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E703FCE4250E90320024B9AE /* DomainKit.framework */,
 				E703FCD8250E8D060024B9AE /* Domain.framework */,
 				E703FCD0250E84F00024B9AE /* Domain.framework */,
-				8D095EC0FA79D65A00356E48 /* Pods_DataKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +200,6 @@
 				E777B3F724CB306A00114E05 /* Data */,
 				E777B40224CB306A00114E05 /* DataTests */,
 				E777B3F624CB306A00114E05 /* Products */,
-				234EFDF715FAB82EC3650066 /* Pods */,
 				D6CD1EBD29CD9E6B4E4964CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -343,7 +330,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E777B40924CB306A00114E05 /* Build configuration list for PBXNativeTarget "DataKit" */;
 			buildPhases = (
-				0DBAC80C4415AEC966A8D0B4 /* [CP] Check Pods Manifest.lock */,
 				E777B3F024CB306A00114E05 /* Headers */,
 				E777B3F124CB306A00114E05 /* Sources */,
 				E777B3F224CB306A00114E05 /* Frameworks */,
@@ -355,6 +341,12 @@
 			dependencies = (
 			);
 			name = DataKit;
+			packageProductDependencies = (
+				451B51FF270B948D00E2CEE8 /* Swinject */,
+				451B5202270B94EF00E2CEE8 /* RxCocoa */,
+				451B5204270B94EF00E2CEE8 /* RxSwift */,
+				451B5207270B957000E2CEE8 /* RxMoya */,
+			);
 			productName = Data;
 			productReference = E777B3F524CB306A00114E05 /* DataKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -384,7 +376,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Vladimir Shemet";
 				TargetAttributes = {
 					E777B3F424CB306A00114E05 = {
@@ -405,6 +397,11 @@
 				Base,
 			);
 			mainGroup = E777B3EB24CB306A00114E05;
+			packageReferences = (
+				451B51FE270B948D00E2CEE8 /* XCRemoteSwiftPackageReference "Swinject" */,
+				451B5201270B94EF00E2CEE8 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				451B5206270B957000E2CEE8 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = E777B3F624CB306A00114E05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -431,31 +428,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0DBAC80C4415AEC966A8D0B4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DataKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E777B3F124CB306A00114E05 /* Sources */ = {
@@ -535,6 +507,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -598,6 +571,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -631,12 +605,11 @@
 		};
 		E777B40A24CB306A00114E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFCE3B825B1EF85D07247B7F /* Pods-DataKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = JD9642CCE2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -659,7 +632,6 @@
 		};
 		E777B40B24CB306A00114E05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70CE858972203B87A9E5D8A5 /* Pods-DataKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -753,6 +725,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		451B51FE270B948D00E2CEE8 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+		451B5201270B94EF00E2CEE8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		451B5206270B957000E2CEE8 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		451B51FF270B948D00E2CEE8 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451B51FE270B948D00E2CEE8 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		451B5202270B94EF00E2CEE8 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451B5201270B94EF00E2CEE8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		451B5204270B94EF00E2CEE8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451B5201270B94EF00E2CEE8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		451B5207270B957000E2CEE8 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451B5206270B957000E2CEE8 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E777B3EC24CB306A00114E05 /* Project object */;
 }
