@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Mapping {
+public protocol Mapping {
   associatedtype From
   associatedtype To // swiftlint:disable:this type_name
     
@@ -16,7 +16,7 @@ protocol Mapping {
   func map(_ itemList: [From]) throws -> [To]
 }
 
-extension Mapping {
+public extension Mapping {
   func map(_ itemList: [From]) throws -> [To] {
     try itemList.map(map)
   }

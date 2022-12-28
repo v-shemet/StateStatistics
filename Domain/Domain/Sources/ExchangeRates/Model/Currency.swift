@@ -9,6 +9,7 @@
 import Foundation
 
 public enum Currency {
+  case CNY
   case EUR
   case RUB
   case UAH
