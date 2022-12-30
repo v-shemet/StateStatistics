@@ -12,6 +12,8 @@ import Foundation
 final class CurrencyMapper: ReverseMapping {
   func map(_ currency: Currency) -> String {
     switch currency {
+    case .CNY:
+      return "CNY"
     case .EUR:
       return "EUR"
     case .RUB:
@@ -27,6 +29,8 @@ final class CurrencyMapper: ReverseMapping {
   
   func reverse(_ currencyCode: String) -> Currency {
     switch currencyCode.uppercased() {
+    case "CNY":
+      return .CNY
     case "EUR":
       return .EUR
     case "RUB":

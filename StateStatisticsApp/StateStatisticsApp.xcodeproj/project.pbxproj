@@ -10,16 +10,20 @@
 		451B520E270B95D000E2CEE8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 451B520D270B95D000E2CEE8 /* RxCocoa */; };
 		451B5210270B95D000E2CEE8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 451B520F270B95D000E2CEE8 /* RxSwift */; };
 		451B5215270B95E900E2CEE8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5214270B95E900E2CEE8 /* Swinject */; };
+		4583D893295C5111009D8F3E /* StateStatisticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D892295C5111009D8F3E /* StateStatisticsApp.swift */; };
+		4583D896295C512A009D8F3E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D895295C512A009D8F3E /* LandingView.swift */; };
+		4583D899295C53FC009D8F3E /* ExchangeRatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D898295C53FC009D8F3E /* ExchangeRatesView.swift */; };
+		4583D89B295C6742009D8F3E /* ExchangeRatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D89A295C6742009D8F3E /* ExchangeRatesViewModel.swift */; };
+		4583D89F295CA934009D8F3E /* ExchangeRatesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D89E295CA934009D8F3E /* ExchangeRatesAssembly.swift */; };
+		4583D8A1295CAB51009D8F3E /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8A0295CAB51009D8F3E /* DependencyFactory.swift */; };
+		4583D8A4295CB815009D8F3E /* ExchangeRateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8A3295CB815009D8F3E /* ExchangeRateItem.swift */; };
+		4583D8A7295CB84E009D8F3E /* ExchangeRateItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8A6295CB84E009D8F3E /* ExchangeRateItemMapper.swift */; };
+		4583D8AC295D97EA009D8F3E /* LandingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8AB295D97EA009D8F3E /* LandingAssembly.swift */; };
 		E703FCDE250E90260024B9AE /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCDD250E90260024B9AE /* DataKit.framework */; };
 		E703FCDF250E90260024B9AE /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCDD250E90260024B9AE /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E703FCE2250E90290024B9AE /* DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE1250E90290024B9AE /* DomainKit.framework */; };
 		E703FCE3250E90290024B9AE /* DomainKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE1250E90290024B9AE /* DomainKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E777B3A624CB2D8C00114E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B3A524CB2D8C00114E05 /* AppDelegate.swift */; };
-		E777B3A824CB2D8C00114E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B3A724CB2D8C00114E05 /* SceneDelegate.swift */; };
-		E777B3AA24CB2D8C00114E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B3A924CB2D8C00114E05 /* ViewController.swift */; };
-		E777B3AD24CB2D8C00114E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E777B3AB24CB2D8C00114E05 /* Main.storyboard */; };
 		E777B3AF24CB2D9000114E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E777B3AE24CB2D9000114E05 /* Assets.xcassets */; };
-		E777B3B224CB2D9000114E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E777B3B024CB2D9000114E05 /* LaunchScreen.storyboard */; };
 		E777B3BD24CB2D9000114E05 /* StateStatisticsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777B3BC24CB2D9000114E05 /* StateStatisticsAppTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,16 +68,20 @@
 
 /* Begin PBXFileReference section */
 		451B51F1270B92B300E2CEE8 /* DataKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataKit.xcodeproj; path = ../Data/DataKit.xcodeproj; sourceTree = "<group>"; };
+		4583D892295C5111009D8F3E /* StateStatisticsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateStatisticsApp.swift; sourceTree = "<group>"; };
+		4583D895295C512A009D8F3E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		4583D898295C53FC009D8F3E /* ExchangeRatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesView.swift; sourceTree = "<group>"; };
+		4583D89A295C6742009D8F3E /* ExchangeRatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesViewModel.swift; sourceTree = "<group>"; };
+		4583D89E295CA934009D8F3E /* ExchangeRatesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesAssembly.swift; sourceTree = "<group>"; };
+		4583D8A0295CAB51009D8F3E /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
+		4583D8A3295CB815009D8F3E /* ExchangeRateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateItem.swift; sourceTree = "<group>"; };
+		4583D8A6295CB84E009D8F3E /* ExchangeRateItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateItemMapper.swift; sourceTree = "<group>"; };
+		4583D8AB295D97EA009D8F3E /* LandingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingAssembly.swift; sourceTree = "<group>"; };
 		E703FCD4250E84FA0024B9AE /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCDD250E90260024B9AE /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCE1250E90290024B9AE /* DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B3A224CB2D8C00114E05 /* StateStatisticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateStatisticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E777B3A524CB2D8C00114E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E777B3A724CB2D8C00114E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E777B3A924CB2D8C00114E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E777B3AC24CB2D8C00114E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E777B3AE24CB2D9000114E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E777B3B124CB2D9000114E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E777B3B324CB2D9000114E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E777B3B824CB2D9000114E05 /* StateStatisticsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateStatisticsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777B3BC24CB2D9000114E05 /* StateStatisticsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStatisticsAppTests.swift; sourceTree = "<group>"; };
@@ -113,6 +121,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4583D891295C5111009D8F3E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4583D897295C53EB009D8F3E /* ExchangeRates */,
+				4583D894295C511D009D8F3E /* Landing */,
+				4583D892295C5111009D8F3E /* StateStatisticsApp.swift */,
+				4583D8A0295CAB51009D8F3E /* DependencyFactory.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4583D894295C511D009D8F3E /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8AB295D97EA009D8F3E /* LandingAssembly.swift */,
+				4583D895295C512A009D8F3E /* LandingView.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		4583D897295C53EB009D8F3E /* ExchangeRates */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8A5295CB834009D8F3E /* Mapper */,
+				4583D8A2295CB802009D8F3E /* Model */,
+				4583D89E295CA934009D8F3E /* ExchangeRatesAssembly.swift */,
+				4583D898295C53FC009D8F3E /* ExchangeRatesView.swift */,
+				4583D89A295C6742009D8F3E /* ExchangeRatesViewModel.swift */,
+			);
+			path = ExchangeRates;
+			sourceTree = "<group>";
+		};
+		4583D8A2295CB802009D8F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8A3295CB815009D8F3E /* ExchangeRateItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4583D8A5295CB834009D8F3E /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8A6295CB84E009D8F3E /* ExchangeRateItemMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 		CDEF95FEF3AE452B02B7BD0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +203,8 @@
 		E777B3A424CB2D8C00114E05 /* StateStatisticsApp */ = {
 			isa = PBXGroup;
 			children = (
-				E777B3A524CB2D8C00114E05 /* AppDelegate.swift */,
-				E777B3A724CB2D8C00114E05 /* SceneDelegate.swift */,
-				E777B3A924CB2D8C00114E05 /* ViewController.swift */,
-				E777B3AB24CB2D8C00114E05 /* Main.storyboard */,
+				4583D891295C5111009D8F3E /* Sources */,
 				E777B3AE24CB2D9000114E05 /* Assets.xcassets */,
-				E777B3B024CB2D9000114E05 /* LaunchScreen.storyboard */,
 				E777B3B324CB2D9000114E05 /* Info.plist */,
 			);
 			path = StateStatisticsApp;
@@ -281,9 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E777B3B224CB2D9000114E05 /* LaunchScreen.storyboard in Resources */,
 				E777B3AF24CB2D9000114E05 /* Assets.xcassets in Resources */,
-				E777B3AD24CB2D8C00114E05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +351,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E777B3AA24CB2D8C00114E05 /* ViewController.swift in Sources */,
-				E777B3A624CB2D8C00114E05 /* AppDelegate.swift in Sources */,
-				E777B3A824CB2D8C00114E05 /* SceneDelegate.swift in Sources */,
+				4583D89F295CA934009D8F3E /* ExchangeRatesAssembly.swift in Sources */,
+				4583D893295C5111009D8F3E /* StateStatisticsApp.swift in Sources */,
+				4583D8AC295D97EA009D8F3E /* LandingAssembly.swift in Sources */,
+				4583D8A7295CB84E009D8F3E /* ExchangeRateItemMapper.swift in Sources */,
+				4583D89B295C6742009D8F3E /* ExchangeRatesViewModel.swift in Sources */,
+				4583D899295C53FC009D8F3E /* ExchangeRatesView.swift in Sources */,
+				4583D896295C512A009D8F3E /* LandingView.swift in Sources */,
+				4583D8A1295CAB51009D8F3E /* DependencyFactory.swift in Sources */,
+				4583D8A4295CB815009D8F3E /* ExchangeRateItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,25 +380,6 @@
 			targetProxy = E777B3B924CB2D9000114E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E777B3AB24CB2D8C00114E05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E777B3AC24CB2D8C00114E05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E777B3B024CB2D9000114E05 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E777B3B124CB2D9000114E05 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E777B3BF24CB2D9000114E05 /* Debug */ = {
@@ -396,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -466,17 +503,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T8P25AMKUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StateStatisticsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.StateStatisticsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -485,17 +533,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T8P25AMKUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StateStatisticsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir-Shemet.StateStatisticsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
