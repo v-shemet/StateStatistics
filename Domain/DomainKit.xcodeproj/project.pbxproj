@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		451B520B270B95B900E2CEE8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 451B520A270B95B900E2CEE8 /* RxSwift */; };
 		451B5218270B95F900E2CEE8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5217270B95F900E2CEE8 /* Swinject */; };
+		4583D8C829621063009D8F3E /* EconomicIndicatorsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8C729621063009D8F3E /* EconomicIndicatorsUseCase.swift */; };
+		4583D8CB29621101009D8F3E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8CA29621101009D8F3E /* Country.swift */; };
+		4583D8D02962164C009D8F3E /* ProductionIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8CF2962164C009D8F3E /* ProductionIndex.swift */; };
 		E71192152515172C00FD48B2 /* ExchangeRatesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71192142515172C00FD48B2 /* ExchangeRatesUseCase.swift */; };
 		E75BB09725140AC500052ED1 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75BB09625140AC500052ED1 /* Currency.swift */; };
 		E75BB0A825140EE900052ED1 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75BB0A725140EE900052ED1 /* ExchangeRate.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4583D8C729621063009D8F3E /* EconomicIndicatorsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicIndicatorsUseCase.swift; sourceTree = "<group>"; };
+		4583D8CA29621101009D8F3E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4583D8CF2962164C009D8F3E /* ProductionIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionIndex.swift; sourceTree = "<group>"; };
 		E71192142515172C00FD48B2 /* ExchangeRatesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesUseCase.swift; sourceTree = "<group>"; };
 		E75BB09625140AC500052ED1 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		E75BB0A725140EE900052ED1 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4583D8C62962103D009D8F3E /* EconomicIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8C9296210E4009D8F3E /* Model */,
+				4583D8C729621063009D8F3E /* EconomicIndicatorsUseCase.swift */,
+			);
+			path = EconomicIndicators;
+			sourceTree = "<group>";
+		};
+		4583D8C9296210E4009D8F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8CA29621101009D8F3E /* Country.swift */,
+				4583D8CF2962164C009D8F3E /* ProductionIndex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C14DCB9D747F7D8E003045DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,7 @@
 		E75BB09325140A6700052ED1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4583D8C62962103D009D8F3E /* EconomicIndicators */,
 				E75BB09425140A7300052ED1 /* ExchangeRates */,
 			);
 			path = Sources;
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4583D8C829621063009D8F3E /* EconomicIndicatorsUseCase.swift in Sources */,
+				4583D8D02962164C009D8F3E /* ProductionIndex.swift in Sources */,
 				E71192152515172C00FD48B2 /* ExchangeRatesUseCase.swift in Sources */,
 				E75BB0A825140EE900052ED1 /* ExchangeRate.swift in Sources */,
+				4583D8CB29621101009D8F3E /* Country.swift in Sources */,
 				E75BB09725140AC500052ED1 /* Currency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

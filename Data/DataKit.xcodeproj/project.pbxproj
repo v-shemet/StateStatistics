@@ -11,6 +11,17 @@
 		451B5203270B94EF00E2CEE8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5202270B94EF00E2CEE8 /* RxCocoa */; };
 		451B5205270B94EF00E2CEE8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5204270B94EF00E2CEE8 /* RxSwift */; };
 		451B5208270B957000E2CEE8 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 451B5207270B957000E2CEE8 /* RxMoya */; };
+		4583D8B1295F4829009D8F3E /* EconomicIndicatorsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8B0295F4829009D8F3E /* EconomicIndicatorsAssembly.swift */; };
+		4583D8B3295F4838009D8F3E /* EconomicIndicatorsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8B2295F4838009D8F3E /* EconomicIndicatorsRepository.swift */; };
+		4583D8B6295F48AA009D8F3E /* EconomicIndicatorsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8B5295F48AA009D8F3E /* EconomicIndicatorsStorage.swift */; };
+		4583D8B8295F4987009D8F3E /* EconomicIndicatorsStorageImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8B7295F4987009D8F3E /* EconomicIndicatorsStorageImpl.swift */; };
+		4583D8BC295F545A009D8F3E /* IndustrialProductionIndices.json in Resources */ = {isa = PBXBuildFile; fileRef = 4583D8BB295F4A40009D8F3E /* IndustrialProductionIndices.json */; };
+		4583D8BF29609CF3009D8F3E /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8BE29609CF3009D8F3E /* Bundle+.swift */; };
+		4583D8C129620B4F009D8F3E /* IndustrialProductionIndicesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8C029620B4F009D8F3E /* IndustrialProductionIndicesEntity.swift */; };
+		4583D8C329620B9D009D8F3E /* ProductionIndexEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8C229620B9D009D8F3E /* ProductionIndexEntity.swift */; };
+		4583D8C529620D5C009D8F3E /* IndustrialProductionIndexCountryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8C429620D5C009D8F3E /* IndustrialProductionIndexCountryEntity.swift */; };
+		4583D8CE296213DC009D8F3E /* CountryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8CD296213DC009D8F3E /* CountryMapper.swift */; };
+		4583D8D229621685009D8F3E /* ProductionIndexMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583D8D129621685009D8F3E /* ProductionIndexMapper.swift */; };
 		E703FCE5250E90320024B9AE /* DomainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; };
 		E703FCE6250E90320024B9AE /* DomainKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E703FCE4250E90320024B9AE /* DomainKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E711920C2515120C00FD48B2 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711920B2515120C00FD48B2 /* DataError.swift */; };
@@ -68,6 +79,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4583D8B0295F4829009D8F3E /* EconomicIndicatorsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicIndicatorsAssembly.swift; sourceTree = "<group>"; };
+		4583D8B2295F4838009D8F3E /* EconomicIndicatorsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicIndicatorsRepository.swift; sourceTree = "<group>"; };
+		4583D8B5295F48AA009D8F3E /* EconomicIndicatorsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicIndicatorsStorage.swift; sourceTree = "<group>"; };
+		4583D8B7295F4987009D8F3E /* EconomicIndicatorsStorageImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicIndicatorsStorageImpl.swift; sourceTree = "<group>"; };
+		4583D8BB295F4A40009D8F3E /* IndustrialProductionIndices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IndustrialProductionIndices.json; sourceTree = "<group>"; };
+		4583D8BE29609CF3009D8F3E /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
+		4583D8C029620B4F009D8F3E /* IndustrialProductionIndicesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialProductionIndicesEntity.swift; sourceTree = "<group>"; };
+		4583D8C229620B9D009D8F3E /* ProductionIndexEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionIndexEntity.swift; sourceTree = "<group>"; };
+		4583D8C429620D5C009D8F3E /* IndustrialProductionIndexCountryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialProductionIndexCountryEntity.swift; sourceTree = "<group>"; };
+		4583D8CD296213DC009D8F3E /* CountryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMapper.swift; sourceTree = "<group>"; };
+		4583D8D129621685009D8F3E /* ProductionIndexMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionIndexMapper.swift; sourceTree = "<group>"; };
 		E703FCD0250E84F00024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCD8250E8D060024B9AE /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703FCE4250E90320024B9AE /* DomainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +150,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4583D8AF295F4806009D8F3E /* EconomicIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8CC296213CC009D8F3E /* Mapper */,
+				4583D8BD29609AFB009D8F3E /* Model */,
+				4583D8BA295F4A14009D8F3E /* Resources */,
+				4583D8B4295F4897009D8F3E /* Storage */,
+				4583D8B0295F4829009D8F3E /* EconomicIndicatorsAssembly.swift */,
+				4583D8B2295F4838009D8F3E /* EconomicIndicatorsRepository.swift */,
+			);
+			path = EconomicIndicators;
+			sourceTree = "<group>";
+		};
+		4583D8B4295F4897009D8F3E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8B5295F48AA009D8F3E /* EconomicIndicatorsStorage.swift */,
+				4583D8B7295F4987009D8F3E /* EconomicIndicatorsStorageImpl.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4583D8BA295F4A14009D8F3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8BB295F4A40009D8F3E /* IndustrialProductionIndices.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4583D8BD29609AFB009D8F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8C429620D5C009D8F3E /* IndustrialProductionIndexCountryEntity.swift */,
+				4583D8C029620B4F009D8F3E /* IndustrialProductionIndicesEntity.swift */,
+				4583D8C229620B9D009D8F3E /* ProductionIndexEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4583D8CC296213CC009D8F3E /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				4583D8CD296213DC009D8F3E /* CountryMapper.swift */,
+				4583D8D129621685009D8F3E /* ProductionIndexMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 		D6CD1EBD29CD9E6B4E4964CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				E711920A251511FC00FD48B2 /* Base */,
+				4583D8AF295F4806009D8F3E /* EconomicIndicators */,
 				E7222E452513F87A0060259E /* ExchangeRates */,
 				E7AE8136250E2BC900E5A187 /* Extension */,
 				E7AE8121250E238E00E5A187 /* Networking */,
@@ -293,6 +365,7 @@
 		E7AE8136250E2BC900E5A187 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4583D8BE29609CF3009D8F3E /* Bundle+.swift */,
 				E75BB0852513FFA900052ED1 /* DateFormatter+.swift */,
 				E7222E4D2513FCC80060259E /* Encodable+.swift */,
 				E7AE8139250E2D7D00E5A187 /* JSONDecoder+.swift */,
@@ -417,6 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4583D8BC295F545A009D8F3E /* IndustrialProductionIndices.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +517,7 @@
 				E7AE8120250E237E00E5A187 /* NetworkService.swift in Sources */,
 				E7AE8125250E252500E5A187 /* NetworkServiceImpl.swift in Sources */,
 				E7AE813D250E30E300E5A187 /* NetworkingAssembly.swift in Sources */,
+				4583D8BF29609CF3009D8F3E /* Bundle+.swift in Sources */,
 				E711920C2515120C00FD48B2 /* DataError.swift in Sources */,
 				E7222E472513F8C70060259E /* ExchangeRatesServiceApi.swift in Sources */,
 				E7222E502513FD5B0060259E /* JSONEncoder+.swift in Sources */,
@@ -452,13 +527,22 @@
 				E7222E4C2513FB3F0060259E /* ExchangeRatesRequest.swift in Sources */,
 				E7AE8135250E29B000E5A187 /* NetworkTargetStubSupportable.swift in Sources */,
 				E7AE8123250E24B300E5A187 /* NetworkTargetType.swift in Sources */,
+				4583D8D229621685009D8F3E /* ProductionIndexMapper.swift in Sources */,
 				E75BB0862513FFA900052ED1 /* DateFormatter+.swift in Sources */,
 				E75BB0A525140D6200052ED1 /* ExchangeRateResponse.swift in Sources */,
 				E7AE8131250E285600E5A187 /* NetworkProviderBuilder.swift in Sources */,
 				E7AE813F250E32E600E5A187 /* DataAssembly.swift in Sources */,
+				4583D8C129620B4F009D8F3E /* IndustrialProductionIndicesEntity.swift in Sources */,
 				E75BB0A125140BF100052ED1 /* CurrencyMapper.swift in Sources */,
 				E7222E4E2513FCC80060259E /* Encodable+.swift in Sources */,
+				4583D8B6295F48AA009D8F3E /* EconomicIndicatorsStorage.swift in Sources */,
+				4583D8C329620B9D009D8F3E /* ProductionIndexEntity.swift in Sources */,
+				4583D8B3295F4838009D8F3E /* EconomicIndicatorsRepository.swift in Sources */,
+				4583D8B1295F4829009D8F3E /* EconomicIndicatorsAssembly.swift in Sources */,
+				4583D8C529620D5C009D8F3E /* IndustrialProductionIndexCountryEntity.swift in Sources */,
+				4583D8CE296213DC009D8F3E /* CountryMapper.swift in Sources */,
 				E7119212251513C000FD48B2 /* ReverseMapping.swift in Sources */,
+				4583D8B8295F4987009D8F3E /* EconomicIndicatorsStorageImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
