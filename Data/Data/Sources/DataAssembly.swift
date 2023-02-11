@@ -10,6 +10,7 @@ import Swinject
 
 public final class DataAssembly: Assembly {
   private let assemblies: [Assembly] = [
+    EconomicIndicatorsAssembly(),
     ExchangeRatesAssembly(),
     NetworkingAssembly()
   ]

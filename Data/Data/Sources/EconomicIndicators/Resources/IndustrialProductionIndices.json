@@ -1,0 +1,505 @@
+{
+    "allCountryCodes": ["BR", "BY", "DE", "IN", "JP", "PL", "RU", "TR", "UA", "US"],
+    "items": [
+        { 
+            "countryCode": "BR",
+            "countryName": "Brazil",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 100
+                },
+                {
+                    "year": 2012,
+                    "index": 98
+                },
+                {
+                    "year": 2013,
+                    "index": 100
+                },
+                {
+                    "year": 2014,
+                    "index": 97
+                },
+                {
+                    "year": 2015,
+                    "index": 89
+                },
+                {
+                    "year": 2016,
+                    "index": 83
+                },
+                {
+                    "year": 2017,
+                    "index": 85
+                },
+                {
+                    "year": 2018,
+                    "index": 86
+                },
+                {
+                    "year": 2019,
+                    "index": 85
+                },
+                {
+                    "year": 2020,
+                    "index": 82
+                }
+            ]
+        },
+        { 
+            "countryCode": "BY",
+            "countryName": "Belarus",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 109
+                },
+                {
+                    "year": 2012,
+                    "index": 116
+                },
+                {
+                    "year": 2013,
+                    "index": 110
+                },
+                {
+                    "year": 2014,
+                    "index": 112
+                },
+                {
+                    "year": 2015,
+                    "index": 105
+                },
+                {
+                    "year": 2016,
+                    "index": 104
+                },
+                {
+                    "year": 2017,
+                    "index": 111
+                },
+                {
+                    "year": 2018,
+                    "index": 117
+                },
+                {
+                    "year": 2019,
+                    "index": 118
+                },
+                {
+                    "year": 2020,
+                    "index": 117
+                }
+            ]
+        },
+        { 
+            "countryCode": "DE",
+            "countryName": "Germany",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 109
+                },
+                {
+                    "year": 2012,
+                    "index": 107
+                },
+                {
+                    "year": 2013,
+                    "index": 107
+                },
+                {
+                    "year": 2014,
+                    "index": 110
+                },
+                {
+                    "year": 2015,
+                    "index": 111
+                },
+                {
+                    "year": 2016,
+                    "index": 112
+                },
+                {
+                    "year": 2017,
+                    "index": 116
+                },
+                {
+                    "year": 2018,
+                    "index": 117
+                },
+                {
+                    "year": 2019,
+                    "index": 112
+                },
+                {
+                    "year": 2020,
+                    "index": 101
+                }
+            ]
+        },
+        { 
+            "countryCode": "IN",
+            "countryName": "India",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 105
+                },
+                {
+                    "year": 2012,
+                    "index": 105
+                },
+                {
+                    "year": 2013,
+                    "index": 106
+                },
+                {
+                    "year": 2014,
+                    "index": 111
+                },
+                {
+                    "year": 2015,
+                    "index": 114
+                },
+                {
+                    "year": 2016,
+                    "index": 120
+                },
+                {
+                    "year": 2017,
+                    "index": 124
+                },
+                {
+                    "year": 2018,
+                    "index": 130
+                },
+                {
+                    "year": 2019,
+                    "index": 131
+                },
+                {
+                    "year": 2020,
+                    "index": 117
+                }
+            ]
+        },
+        { 
+            "countryCode": "JP",
+            "countryName": "Japan",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 97
+                },
+                {
+                    "year": 2012,
+                    "index": 97
+                },
+                {
+                    "year": 2013,
+                    "index": 97
+                },
+                {
+                    "year": 2014,
+                    "index": 98
+                },
+                {
+                    "year": 2015,
+                    "index": 97
+                },
+                {
+                    "year": 2016,
+                    "index": 97
+                },
+                {
+                    "year": 2017,
+                    "index": 100
+                },
+                {
+                    "year": 2018,
+                    "index": 101
+                },
+                {
+                    "year": 2019,
+                    "index": 98
+                },
+                {
+                    "year": 2020,
+                    "index": 88
+                }
+            ]
+        },
+        { 
+            "countryCode": "PL",
+            "countryName": "Poland",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 107
+                },
+                {
+                    "year": 2012,
+                    "index": 108
+                },
+                {
+                    "year": 2013,
+                    "index": 111
+                },
+                {
+                    "year": 2014,
+                    "index": 114
+                },
+                {
+                    "year": 2015,
+                    "index": 120
+                },
+                {
+                    "year": 2016,
+                    "index": 123
+                },
+                {
+                    "year": 2017,
+                    "index": 131
+                },
+                {
+                    "year": 2018,
+                    "index": 139
+                },
+                {
+                    "year": 2019,
+                    "index": 145
+                },
+                {
+                    "year": 2020,
+                    "index": 143
+                }
+            ]
+        },
+        { 
+            "countryCode": "RU",
+            "countryName": "Russia",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 105
+                },
+                {
+                    "year": 2012,
+                    "index": 109
+                },
+                {
+                    "year": 2013,
+                    "index": 109
+                },
+                {
+                    "year": 2014,
+                    "index": 112
+                },
+                {
+                    "year": 2015,
+                    "index": 112
+                },
+                {
+                    "year": 2016,
+                    "index": 114
+                },
+                {
+                    "year": 2017,
+                    "index": 118
+                },
+                {
+                    "year": 2018,
+                    "index": 122
+                },
+                {
+                    "year": 2019,
+                    "index": 126
+                },
+                {
+                    "year": 2020,
+                    "index": 124
+                }
+            ]
+        },
+        { 
+            "countryCode": "TR",
+            "countryName": "Turkey",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 115
+                },
+                {
+                    "year": 2012,
+                    "index": 120
+                },
+                {
+                    "year": 2013,
+                    "index": 128
+                },
+                {
+                    "year": 2014,
+                    "index": 136
+                },
+                {
+                    "year": 2015,
+                    "index": 144
+                },
+                {
+                    "year": 2016,
+                    "index": 149
+                },
+                {
+                    "year": 2017,
+                    "index": 163
+                },
+                {
+                    "year": 2018,
+                    "index": 164
+                },
+                {
+                    "year": 2019,
+                    "index": 163
+                },
+                {
+                    "year": 2020,
+                    "index": 167
+                }
+            ]
+        },
+        { 
+            "countryCode": "UA",
+            "countryName": "Ukraine",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 108
+                },
+                {
+                    "year": 2012,
+                    "index": 107
+                },
+                {
+                    "year": 2013,
+                    "index": 103
+                },
+                {
+                    "year": 2014,
+                    "index": 92
+                },
+                {
+                    "year": 2015,
+                    "index": 80
+                },
+                {
+                    "year": 2016,
+                    "index": 83
+                },
+                {
+                    "year": 2017,
+                    "index": 85
+                },
+                {
+                    "year": 2018,
+                    "index": 88
+                },
+                {
+                    "year": 2019,
+                    "index": 87
+                },
+                {
+                    "year": 2020,
+                    "index": 83
+                }
+            ]
+        },
+        { 
+            "countryCode": "US",
+            "countryName": "USA",
+            "indices": [
+                {
+                    "year": 2010,
+                    "index": 100
+                },
+                {
+                    "year": 2011,
+                    "index": 103
+                },
+                {
+                    "year": 2012,
+                    "index": 106
+                },
+                {
+                    "year": 2013,
+                    "index": 108
+                },
+                {
+                    "year": 2014,
+                    "index": 112
+                },
+                {
+                    "year": 2015,
+                    "index": 110
+                },
+                {
+                    "year": 2016,
+                    "index": 108
+                },
+                {
+                    "year": 2017,
+                    "index": 109
+                },
+                {
+                    "year": 2018,
+                    "index": 113
+                },
+                {
+                    "year": 2019,
+                    "index": 112
+                },
+                {
+                    "year": 2020,
+                    "index": 104
+                }
+            ]
+        }
+    ]
+}
